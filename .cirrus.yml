@@ -8,8 +8,6 @@ task:
 
   info_script:
     - lscpu
-  Git_Clone_From_Github_script:
-    - rm -rf /home/doraemon/HDD/CI/roms/halium/boot/10
   Build_boot_script:
     - cd /home/doraemon/HDD/CI/roms/halium/boot/10
     - export ANDROID_MAJOR_VERSION=q
