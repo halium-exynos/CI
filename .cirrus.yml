@@ -3,6 +3,7 @@ env:
     BUILD_HOSTNAME: "halium"
 
 task:
+  persistent_worker:
   name: halium 10.0 Ubuntu Touch (UBPorts)
 
   info_script:
