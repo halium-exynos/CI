@@ -15,6 +15,6 @@ task:
     - rm -rf deviceinfo
     - cp -r deviceinfo-on7xelte deviceinfo
     - ./build.sh -b workdir
-    - ./build/fetch-and-prepare-latest-ota.sh "16.04/arm64/android9/stable" on7xelte ota
+    - ./build/prepare-fake-ota.sh out/device_on7xelte.tar.xz ota
     - ./build/system-image-from-ota.sh ota/ubuntu_command out
     - rm -rf deviceinfo
